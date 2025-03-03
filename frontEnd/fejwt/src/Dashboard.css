@@ -1,0 +1,160 @@
+.maind{
+    width: 100vw;
+    height: 95.6vh;
+    .detailsd{
+        width: 100vw;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .infod{
+            background-color: #2b599a;
+            height: 95%;
+            border-radius: 1rem;
+            width: 92%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .picd{
+                margin-left: 1.5rem;
+                background: #FFC20E;
+                height:9rem ;
+                width: 9rem;
+                border-radius: 50%;
+                
+            }
+            .datad{
+                background: #ffffff;
+                height: 9rem;
+                width: 50rem;
+                border-radius: 1rem;
+                display: flex;
+                h1{
+                    font-weight: 400;
+                    color: #2b599a;
+                }
+                h4{
+                    color: #234678;
+                    font-weight: 400;
+                }
+                .infos{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    justify-content: space-around;
+                    /* background: #000; */
+                    padding-left: 1rem;
+                    width: 50%;
+                    height: 100%;
+                    
+                }
+                .roles{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 50%;
+                    height: 100%;
+                }
+            }
+            .worktime{
+                background-color: #fff;
+                height: 9rem;
+                border-radius: 1rem;
+                width: 15rem;
+                margin-right: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                button{
+                    width: 12rem;
+                    height: 4vh;
+                    border: #2b599a solid 1px;
+                    color:#324cac;
+                    font-weight: 400;
+                    background-color:#FFC20E;
+                    border-radius: 15px;
+                    font-size: 1.2rem;
+                    /* box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.481); */
+                    transition: box-shadow 0.3s ease;
+                }
+                button:hover{
+                    border:solid 1px;
+                    background: #324cac;
+                    color: #ffffff;
+                    box-shadow:0px  6px 12px rgba(0, 0, 0, 0.2);
+                    scale: 1.08;
+                    transition: .5s;
+                }
+                button:active{
+                    color:#324cac;
+                    background-color: #FFC20E;
+                    transition: 0s;
+                }
+            }
+        }
+    }
+    .timed{
+
+        width: 100vw;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        .minileaves{
+            border:solid 2px #234678;
+            height: 95%;
+            border-radius: 1rem;
+            width: 44vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+        }
+        .minitime{
+            border:solid 2px #234678;
+            height: 95%;
+            border-radius: 1rem;
+            width: 44vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+    .workd{
+        width: 100vw;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        .minileaves{
+            border:solid 2px #234678;
+            height: 95%;
+            border-radius: 1rem;
+            width: 44vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .minitime{
+            border:solid 2px #234678;
+            height: 95%;
+            border-radius: 1rem;
+            width: 44vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
+/* .error {
+    width: 100vw;
+    background-color: #8ba1f1;
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  } */
